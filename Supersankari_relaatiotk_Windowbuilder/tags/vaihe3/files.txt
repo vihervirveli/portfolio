@@ -1,0 +1,49 @@
+!https://trac.cc.jyu.fi/projects/ohj2k13/wiki/suunnitelmat/majosalo = Suunnitelma wikissä
+kuvat/alustavavalikkov1.png = ohjelman pääikkuna (paintilla)
+kuvat2/kyvytNakyma.jpg = käyttäjä näkee tämän jos haluaa tietoa kyvyistä
+kuvat2/ekaNakyma.jpg = käyttäjälle näytettävä ensimmäinen näkymä
+kuvat2/supistiedotNakyma.jpg = käyttäjä näkee tämän jos haluaa tietoa supiksista
+kuvat2/menumuokkaa.jpg = muokkaa-valikon sisältö
+kuvat2/menutiedosto.jpg = tiedosto-valikon sisältö
+kuvat2/menuohje.jpg = ohje-valikon sisältö
+kuvat2/vesaessu.jpg = vesalle kun on ongelmia
+kuvat2/vesaessu2.jpg = vesalle kun on ongelmia
+kuvat2/supisnakymasittenkin.jpg = ehkä sittenkin tämä supersankarinäkymäksi
+kuvat2/uusisupis.jpg = uuden supiksen lisäys
+kuvat2/supisuusivalikonkanssa.jpg = uuden supiksen lisäys valikon kanssa
+kuvat2/uusikyky.jpg = uuden kyvyn lisäys
+kuvat2/supispois.jpg = supiksen poisto
+kuvat2/kykypois.jpg = kyvyn poisto
+kuvat2/varmistus.jpg = poiston varmistus
+kuvat2/supisohje.jpg = ohje käyttäjälle
+kuvat2/uusipaavalikkosupiksille.jpg = uusi päävalikko jossa tila jakautuu oikein!
+kuvat2/supisabout.jpg = about-tietoa rekisteristä
+kuvat2/uusivarmistus.jpg = textareana eikä purkkana kahdella labelilla kitooos
+kuvat2/aboutKuntoon.jpg = about kivemmin
+kuvat2/ohjeKuntoon.jpg = ohje kivemmin
+kuvat2/uusiuusisupis.jpg = supiksen lisäys kivemmaksi
+= Ohjelman esisuunnitelma
+
+= Suunnitelma Wikissä
+
+
+
+= Käyttöliittymän ulkoasu WindowBuilderillä
+
+src/supisGUI/Kyvyt.java = dialogi jolla katotaan kyvyn tietoja
+src/supisGUI/EditPanel.java = komponentti jolla saa editpanelin
+src/supisGUI/ValikkoEdit.java = komponentti josta saa valikon
+src/supisGUI/PaaNakyma.java = rekisterin eka näkymä
+src/supisGUI/Supis.java = yleisnäkymä toimii
+src/supisGUI/UusiSupis.java = uuden supiksen lisäämisnäkymä
+src/supisGUI/UusiKyky.java = uuden supiksen lisäämisnäkymä
+src/supisGUI/PoistaKyky.java = kyvyn poisto
+src/supisGUI/PoistaSupis.java = supiksen poisto
+src/supisGUI/PoistonVarmistus.java = poiston varmistus
+src/supisGUI/SupisOhje.java = Ohje-laatikko
+src/supisGUI/SupisAbout.java = About-laatikko
+
+.project = Eclipsen projekti
+.classpath = Eclipsen luokkapolku
+supis.jar = .jar-tiedostoversio
+build.xml = jarin ohessa
