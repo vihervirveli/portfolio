@@ -1,77 +1,70 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
 """
 @vihervirveli project for AI and IoT. 
 Purpose of the project:
-•	Make a CNN that will determine if the pictures used in an age determining program 
-    1.	have good enough resolution to detect a person (len(locations))
-    2.	possibly resize/enhance image (power law transformation?) in order to do so
-    3.	if they contain more than one person (len(locations))
-    4.	if some of the pictures need to be deleted (make a list of said pictures)
+•	Make a CNN that will determine that the pictures used in an age determining program 
+    1.	are big enough
+    2.	have one (1) face in them
+    3.	in addition to a face, the picture also contains face landmarks
 """
 
 
+
+from __future__ import absolute_import, division, print_function, unicode_literals
 import os
+import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import EarlyStopping
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-
-
-
-def picture_paths(p, test_or_train, label):
-    """Source: Vihervirveli
-    Gets a path, a label and whether the pics are in a test or train directory, returns a list of files in said directory
-    Args: p = path where the files are, test_or_train, which directory to dig the files from and label = (keep or delete) 
-    Returns: a list of files in the path directory
-    """
-    l = []
-    full_path = p + test_or_train +"//"+ label
-    return os.listdir(full_path)
-
-
-path = "D://kasvokuvat//imdb_crop//imdb_crop//testPics3//"
-
-train_keepit = picture_paths(path, "train", "keep")
-train_deletit = picture_paths(path, "train","delete")
-test_keepit = picture_paths(path, "test", "keep")
-test_deletit = picture_paths(path, "test", "delete")
-
-test_keepit
-
-
-#The following will be modified from Tensorflow 2.0 and their own website https://www.tensorflow.org/tutorials/load_data/images
-import tensorflow as tf
-import numpy as np
+AUTOTUNE = tf.data.experimental.AUTOTUNE
+import IPython.display as display
+from PIL import Image
 import pathlib
 
-basicpath = "D://kasvokuvat//imdb_crop//imdb_crop//testPics3//"
-data_dir = pathlib.Path(basicpath)
+kasvods_dir = "D://kasvokuvat//kasvods//for_use//"
+print("testi")
+
+
+
+#the directory where we keep our test and train directories. They both contain directories keep and delete.
+data_dir = pathlib.Path(kasvods_dir)
 print(data_dir)
 
 
 
-image_count = len(list(data_dir.glob('*/*/*.jpg')))
+#how many pictures do we have for our uses
+image_count = len(list(data_dir.glob('*/*/*.jpg'))) #+/*?
 image_count
 
 
-CLASS_NAMES = np.array([item.name for item in data_dir.glob('*/*') if item.name != "LICENSE.txt"])
+
+#what our class names are (keep and delete)
+CLASS_NAMES = np.array([item.name for item in data_dir.glob('*/*')])
 CLASS_NAMES
 
 
-import IPython.display as display
-from PIL import Image
 
+
+#here we can see a few example pictures from train deletes
 deletes = list(data_dir.glob('train//delete//*'))
 
 for image_path in deletes[:3]:
     display.display(Image.open(str(image_path)))
 
 
-peruspath = "D://kasvokuvat//imdb_crop//imdb_crop//testPics3//"
-data_dir = pathlib.Path(peruspath)
-print(data_dir)
+
+
+#let's create a dataset of the file paths
 list_ds = tf.data.Dataset.list_files(str(data_dir/'*/*/*'))
 
 for f in list_ds.take(10):
@@ -79,41 +72,44 @@ for f in list_ds.take(10):
 
 
 
-AUTOTUNE = tf.data.experimental.AUTOTUNE
 BATCH_SIZE = 32
-IMG_HEIGHT = 100
-IMG_WIDTH = 100
+IMG_HEIGHT = 150
+IMG_WIDTH = 150
 STEPS_PER_EPOCH = np.ceil(image_count/BATCH_SIZE)
 
+
 def get_label(file_path):
-  # convert the path to a list of path components
-  parts = tf.strings.split(file_path, '\\')
-  # The second to last is the class-directory
-  return parts[-2] == CLASS_NAMES
+    # convert the path to a list of path components
+    parts = tf.strings.split(file_path, os.path.sep)
+    # The second to last is the class-directory
+    return parts[-2] == CLASS_NAMES
 
 def decode_img(img):
-  # convert the compressed string to a 3D uint8 tensor
-  img = tf.image.decode_jpeg(img, channels=3)
-  # Use `convert_image_dtype` to convert to floats in the [0,1] range.
-  img = tf.image.convert_image_dtype(img, tf.float32)
-  # resize the image to the desired size.
-  return tf.image.resize(img, [IMG_WIDTH, IMG_HEIGHT])
+    # convert the compressed string to a 3D uint8 tensor
+    img = tf.image.decode_jpeg(img, channels=3)
+    # Use `convert_image_dtype` to convert to floats in the [0,1] range.
+    img = tf.image.convert_image_dtype(img, tf.float32)
+    # resize the image to the desired size.
+    return tf.image.resize(img, [IMG_WIDTH, IMG_HEIGHT])
 
 def process_path(file_path):
+    """
+    Returns: a pair of img: image and label:label so that our model can know which is the correct answer when learning
+    and testing
+    """
     label = get_label(file_path)
     # load the raw data from the file as a string
     img = tf.io.read_file(file_path)
     img = decode_img(img)
     return img, label
 
-# Set `num_parallel_calls` so multiple images are loaded/processed in parallel.
 labeled_ds = list_ds.map(process_path, num_parallel_calls=AUTOTUNE)
 for image, label in labeled_ds.take(2):
     print("Image shape: ", image.numpy().shape)
     print("Label: ", label.numpy())
 
 
-import matplotlib.pyplot as plt
+
 
 def show_batch(image_batch, label_batch):
     plt.figure(figsize=(10,10))
@@ -153,16 +149,16 @@ image_batch, label_batch = next(iter(train_ds))
 show_batch(image_batch.numpy(), label_batch.numpy())
 
 
-#From this point on, we will modify Tensorflow 2.0's image classification tutorial.
 
 
-PATH = os.path.join(os.path.dirname("D://kasvokuvat//imdb_crop//imdb_crop//testPics3"), 'testPics3')
+PATH = os.path.dirname(kasvods_dir)
 train_dir = os.path.join(PATH, 'train')
 test_dir = os.path.join(PATH, 'test')
 train_keep_dir = os.path.join(train_dir, 'keep')  
 train_delete_dir = os.path.join(train_dir, 'delete')  
 test_keep_dir = os.path.join(test_dir, 'keep')  
 test_delete_dir = os.path.join(test_dir, 'delete') 
+
 
 
 
@@ -187,21 +183,25 @@ print("Total validation images:", total_test)
 
 
 
-batch_size = 50
-epochs = 15 
-IMG_HEIGHT = 150
-IMG_WIDTH = 150
+batch_size = 50 #55=> 86%, 60 => 88%, 40 => 88%, 50 => 91%, 128 => 85-86%
+epochs = 10 #20, 15
+IMG_HEIGHT = 350
+IMG_WIDTH = 350
 
 
-train_image_generator = ImageDataGenerator(rescale=1./255, horizontal_flip=True) # Generator for our training data
+
+
+train_image_generator = ImageDataGenerator(rescale=1./255,horizontal_flip=True) # Generator for our training data
 test_image_generator = ImageDataGenerator(rescale=1./255) # Generator for our validation data
+
+
+
+
 train_data_gen = train_image_generator.flow_from_directory(batch_size=batch_size,
                                                            directory=train_dir,
                                                            shuffle=True,
                                                            target_size=(IMG_HEIGHT, IMG_WIDTH),
                                                            class_mode='binary')
-
-
 
 test_data_gen = test_image_generator.flow_from_directory(batch_size=batch_size,
                                                               directory=test_dir,
@@ -209,9 +209,9 @@ test_data_gen = test_image_generator.flow_from_directory(batch_size=batch_size,
                                                               class_mode='binary')
 
 
+
+
 sample_training_images, _ = next(train_data_gen)
-
-
 
 # This function will plot images in the form of a grid with 1 row and 5 columns where images are placed in each column.
 def plotImages(images_arr):
@@ -225,6 +225,10 @@ def plotImages(images_arr):
 
 plotImages(sample_training_images[:5])
 
+
+
+
+#our actual model and a summary of it
 
 model = Sequential([
     Conv2D(16, 3, padding='same', activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH ,3)),
@@ -240,7 +244,7 @@ model = Sequential([
     Dense(1, activation='sigmoid')
 ])
 
-adam = Adam(learning_rate=0.0001) 
+adam = Adam(learning_rate=0.001) #0.000001 =>69% default 0.001
 
 model.compile(optimizer=adam,
               loss='binary_crossentropy',
@@ -250,12 +254,9 @@ model.summary()
 
 
 
-#Conv2D(128, 3, padding='same', activation='relu'),
-#    MaxPooling2D(),
-#    Conv2D(256, 3, padding='same', activation='relu'),
-#    MaxPooling2D(),
-
-
+earlystop_callback = EarlyStopping(monitor='val_accuracy', min_delta=0.0001,
+  patience=1)
+#and now we run the model to teach it and see how well it does
 history = model.fit_generator(
     train_data_gen,
     steps_per_epoch=total_train // batch_size,
@@ -267,6 +268,13 @@ history = model.fit_generator(
 
 
 
+"""
+After running the model, we can see here the accuracy level and how well we reduced loss. If the lines are close to each other,
+our model is pretty good. If the lines are far apart, a few things could be off: if the loss line keeps zigzagging, 
+it might mean we have too few testing pictures. If the validation accuracy doesn't meet training accuracy, problem could be 
+overfitting => the model is adapting too well to the training data, and doesn't generalize well. In that case we must regularize
+our model better, by using dropouts or other methods.
+"""
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 
@@ -291,4 +299,31 @@ plt.show()
 
 
 
+
+get_ipython().system('pip install -q pyyaml h5py')
+
+
+
+
+model.save("D://kasvokuvat//kasvods//model.h5")
+
+
+
+
+"""
+dropoutin kera, jos tarviit sitä vielä, kopioi tästä
+model = Sequential([
+    Conv2D(16, 3, padding='same', activation='relu', input_shape=(IMG_HEIGHT, IMG_WIDTH ,3)),
+    MaxPooling2D(),
+    Dropout(0.2),
+    Conv2D(32, 3, padding='same', activation='relu'),
+    MaxPooling2D(),
+    Conv2D(64, 3, padding='same', activation='relu'),
+    MaxPooling2D(),
+    Dropout(0.2),
+    Flatten(),
+    Dense(512, activation='relu'),
+    Dense(1, activation='sigmoid')
+])
+"""
 
