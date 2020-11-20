@@ -4,5 +4,6 @@
 I learned the basics of Java programming and 
 - Java
 - Windowbuilder
-- relational database \
+- relational database
+
 2013
