@@ -7,5 +7,5 @@ I learned the basics of AI and how to apply them in an AI project
 
 ## ImageClassificationFaceRecognition
 
-Python, Tensorflow 2.0, DataFrame, PIL 
+Python, Tensorflow 2.0, DataFrame, PIL
 2019
