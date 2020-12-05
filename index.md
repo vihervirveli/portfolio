@@ -3,11 +3,12 @@
 
 ### Koodariosaaminen
 
-Fronttikoodaus
 
-|  React     | Components    |Classes | Hooks  |
-| Javascript | Jquery | Ajax | ES6    | JSON   |
-| HTML&CSS   | HTML5  |      |        |        |
+|  Fronttikoodaus                                   | 
+|------------|----------------|------------|--------|
+|  React     | Components     |Classes     | Hooks  |
+| Javascript | Jquery         | Ajax,JSON  | ES6    |
+| HTML&CSS   | HTML5          |            |        |   
 
 
 
