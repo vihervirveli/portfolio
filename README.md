@@ -104,5 +104,6 @@ University of Jyväskylä
 * I learned the basics of coding 
 * how to make a 2D game using
    - C#
-   - Jypeli \
+   - Jypeli
+* [Link to code](https://github.com/vihervirveli/portfolio/tree/master/C%23/FrenchWordTasohyppely) \
 2011
