@@ -5,12 +5,12 @@
 
 Fronttikoodaus
 
-|  React     | Javascript    | HTML & CSS |
-|------------|---------------|------------|
-| Components | Jquery        |            |   
-| Classes    | Ajax          |            |   
-| Hooks      | ES6           |            |
-|            |  JSON         |            |
+|  React     | Components    |Classes | Hooks  |
+| Javascript | Jquery | Ajax | ES6    | JSON   |
+| HTML&CSS   | HTML5  |      |        |        |
+
+
+
 
 Backendkoodaus
 |  Node.js   | Python         | Java       | C# | 
