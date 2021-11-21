@@ -83,6 +83,9 @@ Open University of Helsinki
 * [Link to code](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition) \
 2019
 
+### Covid Info Search
+I learned to use the basics of Python programming (again) and how to apply them to make a user input based program
+
 ## Java
 
 [My Java projects](https://github.com/vihervirveli/portfolio/tree/master/Java)
