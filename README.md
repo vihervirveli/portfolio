@@ -85,6 +85,8 @@ Open University of Helsinki
 
 ### Covid Info Search
 I learned to use the basics of Python programming (again) and how to apply them to make a user input based program
+* [Link to code](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/covid_info_search) \
+2021
 
 ## Java
 
