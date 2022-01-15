@@ -24,9 +24,15 @@
 ### Koulutus
 
 **Nykyinen koulutus:** 
+
 - 2021 syksystä eteenpäin Tieto- ja viestintätekniikalla Jyväskylän ammattikorkeakoulusta
+
 **Aikaisemmat koulutukset:**
+
 -2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
+  
   -sivuaine englanti
+
 -2015 humanististen tieteiden kandidaatti Jyväskylän yliopistolta
+  
   -sivuaine tietotekniikka
