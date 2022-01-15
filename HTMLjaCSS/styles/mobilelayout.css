@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+/*"Roboto Condensed"*/
+.teksti_rc{
+  font-family:"Roboto Condensed";
+  font-size: 1.25em;
+}
+article {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:wheat;
+ 
+}
+
+/*
+header on HTML5 semanttinen rakenne johon tyypillisesti menee joko otsikko, logo tai tekijän tiedot.
+Minun leiskassani se on niin perus- kuin mobiiliversiossa
+samanlainen kuin harj4-6. Minusta se oli nätti noin.
+Olen pyrkinyt uuteen ideointiin enemmän sisältöosiossa.
+*/
+header {
+  background-color: #575757;
+  color: #F0EBEB;
+  text-align: center;
+  font-size: 200%;
+  padding: 1em;
+  letter-spacing: 1em;
+}
+
+nav, footer{
+  background-color: #E49A2F;
+  color: #F7F5EE;
+  text-align: center;
+}
+
+
+/*
+nav on HTML5 semanttisissa rakenteissa menu.
+Minun leiskassani se on perusversiossa
+samanlainen kuin harj4-6, mutta mobiilileiskassa
+se on pystysuora. Lisää perusleiskasta voit lukea
+tiedostosta layout.css. Leiskoissa on myös font awesomen ikoneja piristämässä ja selventämässä linkkejä.
+*/
+nav{
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+nav li{
+  display: inline;
+  margin-bottom: 0;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em;/* 14px 25px;*/
+  margin-bottom: 0;
+}
+
+nav .fa-puzzle-piece, nav .fa-book,nav .fa-home{
+  clear:both;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: white;
+  font-size: 1em;
+}
+
+nav a:hover:not(.active) {
+  background-color:indianred;
+  margin-bottom: 0;
+}
+
+nav .active {
+  background-color:indianred;
+}
+
+/*
+footer on HTML5 semanttinen rakenne johon tyypillisesti menee joko tekijän tiedot, tekijänoikeustiedot, yhteystiedot, sivukartta, linkki takaisin sivun alkuun tai liittyviä dokumentteja. 
+Minun leiskassani siinä on yhteystietoja (miinus puhelinnumeroni bottien varalta) se on niin perus- kuin mobiiliversiossa samanlainen kuin harj4-6. Minusta se oli nätti noin. Olen pyrkinyt uuteen ideointiin enemmän sisältöosiossa.
+*/
+footer {
+  clear:both;
+  padding-top: 0.3em;
+  font-size: 1.2em;
+}
+
+footer h2, footer h3{
+  color: white;
+  padding: 0.1em;
+}
+
+main {
+  background-color: #D8CCAF;
+  width: 100%;
+  
+  
+}
+
+.contentinner{
+  background-color: #E49A2F;
+  width: 25em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-radius: 15px;
+  
+}
+
+h2, h3{
+  color:  #E49A2F;
+  padding: 1.2em;
+  text-align: center;
+}
+h4 {
+  color:  #E49A2F;
+  padding: 1em;
+  text-align: center;
+}
+/*
+semanttinen aside-elementti.
+Kukaan ei kieltänyt laittamasta sitä keskelle,
+joten laitoin sen keskelle.
+Aside-elementin pitäisi w3:n mukaan epäsuorasti
+liittyä sisältöön jonne se on asetettu, eli tässä 
+tapauksessa portfolio-sivuuni jossa kerron
+mitä olen tehnyt minäkin vuosina ICT:n liittyen.
+Minusta LinkedIn- ja Github-sivuni liittyvät epäsuorasti asiaan, koska koko pointtina on
+saada minulle töitä.
+*/
+aside {
+  text-align: center;
+  border: 1px solid #575757;
+  border-radius: 15px;
+  background-color: #575757;
+  color: #F0EBEB;
+  width: 60%;
+  margin: auto;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+
+}
+aside li a {
+  padding: 1em;
+  color: #F0EBEB;
+}
+aside a:visited{
+  color: #F0EBEB;
+}
+aside a:hover{
+  background-color: indianred;
+  color: #F0EBEB;
+}
+aside ul, aside li {
+  list-style: none;
+  
+}
+aside li{
+  padding: 0.5em;
+}
+
+
+.rakenneotsikko{
+text-align: center;
+background-color: #575757;
+color: #F0EBEB;
+margin-top: 1.25em;
+padding-top: 1em;
+margin-bottom: 1.25em;
+letter-spacing: 0.5em;
+border-radius: 15px 15px 0 0;
+
+}
+
+/*
+wrapper-luokan loin pitämään sisällään luokkia contentinner, rakenneotsikko ja perussisalto sisällään.
+*/
+.wrapperi {
+  width: 90%;
+  margin: auto;
+}
+
+
+.kuvacontainer {
+  text-align: center;
+}
+.perussisalto {
+  width: 80%;
+  margin: auto;
+  font-family:"Noto Sans JP", "Lucida Grande", sans-serif;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  border-radius: 15px;
+  background-color: #F0EBEB;
+}
+.perussisalto a:hover, .aikajanasisalto a:hover{
+  background-color: indianred;
+  color: #F0EBEB;
+}
+
+
+p {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  display: block;
+}
+#yleis{
+  padding-left: 2em;
+  padding-top: 2em;
+  width: 20em;
+  margin: auto;
+}
+#yleis img{
+  margin-right: 3em;
+  float: left;
+  border-radius: 15px;
+}
+#yleis h2, #yleis p {
+  display: block;
+  margin-left: 3em;
+}
+
+

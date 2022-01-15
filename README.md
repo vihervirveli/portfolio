@@ -58,3 +58,11 @@ diville.
 * how to make a 2D game using
    - C#
    - Jypeli
+
+## HTML & CSS
+[My HTML&CSS portfolio](https://github.com/vihervirveli/portfolio/tree/master/C%23)
+
+### What I learned
+* I practiced the basics of HTML5 and CSS2
+* Lightbox for showing pictures
+* separate CSS for mobile
