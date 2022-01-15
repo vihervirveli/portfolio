@@ -1,5 +1,12 @@
 # What I learned from my projects
 
+## React 
+Tein SwearWordComponent.js-komponentin joka
+tarkistaa foorumin käyttäjän kirjoituksen ja
+listaa käyttäjän käyttämät kirosanat väliaikaiselle
+diville.
+[React-komponentti](https://github.com/vihervirveli/WiableReact/blob/master/src/components/SwearWordComponent.js)
+
 ## Javascript
 
 [My Javascript projects](https://github.com/vihervirveli/portfolio/tree/master/Javascript)
