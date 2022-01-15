@@ -29,10 +29,14 @@
 
 **Aikaisemmat koulutukset:**
 
+-2020 syksy Moderni ohjelmistokehitys-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
+
+-2019 syksy Tekoäly ja IoT-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
+
 -2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
   
-  -sivuaine englanti
+        -sivuaine englanti
 
 -2015 humanististen tieteiden kandidaatti Jyväskylän yliopistolta
   
-  -sivuaine tietotekniikka
+        -sivuaine tietotekniikka
