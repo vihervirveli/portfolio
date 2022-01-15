@@ -1,5 +1,6 @@
 ## MAARIT SALO CV
 
+![Kuva](https://media-exp1.licdn.com/dms/image/C4D03AQFCX2ipRYy1hw/profile-displayphoto-shrink_400_400/0/1599657245797?e=1647475200&v=beta&t=u2WVY1O90GTr5sfVSGJYQoQhv01uyMNYQtkjN4cZjgA)
 
 ### Koodariosaaminen
 
