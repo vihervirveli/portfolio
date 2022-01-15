@@ -60,7 +60,7 @@ diville.
    - Jypeli
 
 ## HTML & CSS
-[My HTML&CSS portfolio](https://github.com/vihervirveli/portfolio/tree/master/C%23)
+[My HTML&CSS portfolio](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)
 
 ### What I learned
 * I practiced the basics of HTML5 and CSS2
