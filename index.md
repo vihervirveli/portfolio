@@ -3,22 +3,22 @@
 
 ### Koodariosaaminen
 
-|  **Fronttikoodaus**                               | 
-|:-------------:|:-------------:|:-------------:|
-|  [**React**](https://github.com/vihervirveli/portfolio/tree/master/React)     |   |
-|  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript) |
-| [**HTML&CSS**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)      |   
+|  **Fronttikoodaus** |                              | 
+|:-------------:|:------:|
+|  [**React**](https://github.com/vihervirveli/portfolio/tree/master/React) | Komponentti joka tarkistaa foorumin käyttäjän kirjoituksen sisällön      |
+|  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript)| Erilaisia pieniä laskureita, arvaajia ja API ja JSON-juttuja |
+| [**HTML&CSS**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)  | Viimeisin HTML ja CSS-harkka|   
 
 
 
 
 
-|  Backendkoodaus                                        | 
-|:-------------:|
-|  [**Node.js**]() |
-| [**Python**]()   |
-| [**Java**]() |
-| [**C#**]()   |
+|  Backendkoodaus    |                                    | 
+|:-------------:|:---------:|
+|  [**Node.js**](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Winston-loggeri loggaamaan foorumin tapahtumat |
+| [**Python**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python)| Esim. kuvanluokittelu neuroverkoilla (Tensorflow 2.0) jne |
+| [**Java**](https://github.com/vihervirveli/portfolio/tree/master/Java)| Supersankaritietokanta relaatiotietokannoilla ja Windowbuilderillä |
+| [**C#**](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | Tasohyppelypeli |
 
 ### Koulutus
 
