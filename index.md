@@ -33,13 +33,5 @@
     * JAMK, maaliskuu – huhtikuu 2020
 * Tekoäly ja Iot (data scientist)
     * JAMK/Te-palvelut, syyskuu – soulukuu 2019
-
-**Aikaisemmat koulutukset:**
-
-* 2020 syksy Moderni ohjelmistokehitys-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
-
-* 2019 syksy Tekoäly ja IoT-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
-
-* 2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
-  
-    * sivuaineina tietotekniikka ja englanti
+* Tietotekniikan sivuaine
+    *  Jyväskylän yliopisto, 2009-2015
