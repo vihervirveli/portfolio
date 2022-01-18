@@ -23,9 +23,16 @@
 
 ### Koulutus
 
-**Nykyinen koulutus:** 
+**IT-alan koulutus:** 
 
-* 2021 syksystä eteenpäin Tieto- ja viestintätekniikalla Jyväskylän ammattikorkeakoulusta
+* Tieto- ja viestintätekniikka (ICT-insinööri)
+    * JAMK, elokuu 2021 -
+* Moderni ohjelmistokehitys (web developer)
+    * JAMK/Te-palvelut, syyskuu – joulukuu 2020  
+* Photoshop
+    * JAMK, maaliskuu – huhtikuu 2020
+* Tekoäly ja Iot (data scientist)
+    * JAMK/Te-palvelut, syyskuu – soulukuu 2019
 
 **Aikaisemmat koulutukset:**
 
