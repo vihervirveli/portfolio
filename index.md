@@ -35,4 +35,4 @@
 
 -2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
   
-        -sivuaine tietotekniikka ja englanti
+    -sivuaineina tietotekniikka ja englanti
