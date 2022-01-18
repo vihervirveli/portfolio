@@ -25,14 +25,14 @@
 
 **Nykyinen koulutus:** 
 
-- 2021 syksystä eteenpäin Tieto- ja viestintätekniikalla Jyväskylän ammattikorkeakoulusta
+* 2021 syksystä eteenpäin Tieto- ja viestintätekniikalla Jyväskylän ammattikorkeakoulusta
 
 **Aikaisemmat koulutukset:**
 
--2020 syksy Moderni ohjelmistokehitys-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
+* 2020 syksy Moderni ohjelmistokehitys-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
 
--2019 syksy Tekoäly ja IoT-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
+* 2019 syksy Tekoäly ja IoT-työvoimakoulutus TE:lta ja Jyväskylän ammattikorkeakoululta
 
--2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
+* 2017 filosofian maisteri (romaaninen filologia, ranska) Jyväskylän yliopistolta
   
-    -sivuaineina tietotekniikka ja englanti
+    * sivuaineina tietotekniikka ja englanti
