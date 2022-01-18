@@ -33,5 +33,3 @@
     * JAMK, maaliskuu – huhtikuu 2020
 * Tekoäly ja Iot (data scientist)
     * JAMK/Te-palvelut, syyskuu – soulukuu 2019
-* Tietotekniikan sivuaine
-    *  Jyväskylän yliopisto, 2009-2015
