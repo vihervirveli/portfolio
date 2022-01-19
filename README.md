@@ -1,11 +1,9 @@
 # What I learned from my projects
 
 ## React 
-Tein SwearWordComponent.js-komponentin joka
-tarkistaa foorumin käyttäjän kirjoituksen ja
-listaa käyttäjän käyttämät kirosanat väliaikaiselle
-diville.
-[React-komponentti](https://github.com/vihervirveli/WiableReact/blob/master/src/components/SwearWordComponent.js)
+I made a SwearWordComponent.js component which checks a forum user's message
+for swearwords and lists the swearwords on a temporary div
+[React component](https://github.com/vihervirveli/WiableReact/blob/master/src/components/SwearWordComponent.js)
 
 ## Javascript
 
