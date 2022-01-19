@@ -16,8 +16,8 @@
 
 |  Backendkoodaus    |                                    | 
 |:-------------:|:---------:|
-|  [**Node.js**](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Winston-loggeri loggaamaan foorumin tapahtumat |
 | [**Python**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python)| Esim. kuvanluokittelu neuroverkoilla (Tensorflow 2.0) jne |
+|  [**Node.js**](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Winston-loggeri loggaamaan foorumin tapahtumat |
 | [**Java**](https://github.com/vihervirveli/portfolio/tree/master/Java)| Supersankaritietokanta relaatiotietokannoilla ja Windowbuilderillä |
 | [**C#**](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | Tasohyppelypeli |
 
