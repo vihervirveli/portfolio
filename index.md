@@ -1,11 +1,11 @@
 ## MAARIT SALO CV
 
 
-### Koodariosaaminen
+### Coding experience
 
-|  **Fronttikoodaus** |                              | 
+|  **Frontend** |                              | 
 |:-------------:|:------:|
-|  [**Fullstack - Hobbyapp**](LINKKI) | Harrastustietokanta, teknologiat vanilla JS, Node ja MongoDB |
+|  [**Fullstack - Hobbyapp**]([LINKKI](https://github.com/vihervirveli/Fullstack-HobbyApp)) | Harrastustietokanta, teknologiat vanilla JS, Node ja MongoDB |
 |  [**React - Picapp**](https://github.com/vihervirveli/pic-app) | Sovellus, jolla voi etsiä kuvia Pixabayn API:n avulla ja "lähettää" kortin    |
 |  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript)| Erilaisia pieniä laskureita, arvaajia ja API ja JSON-juttuja |
 | [**HTML&CSS**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)  | Viimeisin HTML ja CSS-harkka|   
