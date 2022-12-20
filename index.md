@@ -1,12 +1,11 @@
 ## MAARIT SALO CV
 
-![Kuva](https://media-exp1.licdn.com/dms/image/C4D03AQFCX2ipRYy1hw/profile-displayphoto-shrink_400_400/0/1599657245797?e=1647475200&v=beta&t=u2WVY1O90GTr5sfVSGJYQoQhv01uyMNYQtkjN4cZjgA)
 
 ### Koodariosaaminen
 
 |  **Fronttikoodaus** |                              | 
 |:-------------:|:------:|
-|  [**React**](https://github.com/vihervirveli/portfolio/tree/master/React) | Komponentti joka tarkistaa foorumin käyttäjän kirjoituksen sisällön      |
+|  [**React - picapp**](https://student.labranet.jamk.fi/~p0033/harkka/) | Sovellus, jolla voi etsiä kuvia Pixabayn API:n avulla ja "lähettää" kortin    |
 |  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript)| Erilaisia pieniä laskureita, arvaajia ja API ja JSON-juttuja |
 | [**HTML&CSS**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)  | Viimeisin HTML ja CSS-harkka|   
 
