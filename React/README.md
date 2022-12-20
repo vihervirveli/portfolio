@@ -2,8 +2,11 @@
 
 ## React
 
-Tein SwearWordComponent.js-komponentin joka
-tarkistaa foorumin käyttäjän kirjoituksen ja
-listaa käyttäjän käyttämät kirosanat väliaikaiselle
-diville.
-[Linkki komponenttiin](https://github.com/vihervirveli/WiableReact/blob/master/src/components/SwearWordComponent.js)
+### pic-app
+
+A picture app where you can create a card and search for pictures using Pixabay API
+
+[Link to the build](https://student.labranet.jamk.fi/~p0033/harkka/)
+[Link to the source code](https://github.com/vihervirveli/pic-app)
+
+
