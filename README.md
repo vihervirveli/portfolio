@@ -1,9 +1,26 @@
 # What I learned from my projects
 
+## Fullstack projects
+
+### HobbyApp
+
+A Hobby Database that includes all the CRUD functionalities, filtering and a crude log in and log out functionality that uses
+
+a MongoDB collection to test whether the user's username and password match a known user.
+
+Technologies: Vanilla JS, Node, MongoDB
+
+[Link to the source code](https://github.com/vihervirveli/Fullstack-HobbyApp)
+
 ## React 
-I made a SwearWordComponent.js component which checks a forum user's message
-for swearwords and lists the swearwords on a temporary div
-[React component](https://github.com/vihervirveli/WiableReact/blob/master/src/components/SwearWordComponent.js)
+
+### pic-app
+
+A picture app where you can create a card and search for pictures using Pixabay API
+
+[Link to the build](https://student.labranet.jamk.fi/~p0033/harkka/)
+
+[Link to the source code](https://github.com/vihervirveli/pic-app)
 
 ## Javascript
 
