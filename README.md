@@ -6,7 +6,7 @@
 
 Technologies: React, Typescript, Firebase
 
-A shopping list with all the CRUD functionalities. You can also check and uncheck items as you shop. 
+A shopping list with all the CRUD functionalities. You can also check and uncheck items as you shop. A user logs into the app using Firebase, and the navigation happens with React router.
 
 [Source code](Typescript/shoppinglist-app/)
 
