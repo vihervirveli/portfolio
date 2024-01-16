@@ -5,7 +5,7 @@
 
 |  **Frontend** |                              | 
 |:-------------:|:------:|
-|  [**React-Typescript - Shopping list app**]([https://github.com/vihervirveli/Fullstack-HobbyApp](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app)) | Ostoslistasovellus, teknologiat React, Typescript, Firebase |
+|  [**React-Typescript - Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | Ostoslistasovellus, teknologiat React, Typescript, Firebase |
 |  [**Fullstack - Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | Harrastustietokanta, teknologiat vanilla JS, Node ja MongoDB |
 |  [**React - Picapp**](https://github.com/vihervirveli/pic-app) | Sovellus, jolla voi etsiä kuvia Pixabayn API:n avulla ja "lähettää" kortin    |
 |  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript)| Erilaisia pieniä laskureita, arvaajia ja API ja JSON-juttuja |
