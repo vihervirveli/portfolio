@@ -1,21 +1,28 @@
 # What I learned from my projects
 
-
 ## Fullstack projects
+
+### Shopping list app
+
+Technologies: React, Typescript, Firebase
+
+A shopping list with all the CRUD functionalities. You can also check and uncheck items as you shop. 
+
+[Source code](Typescript/shoppinglist-app/)
 
 ### HobbyApp
 
-A Hobby Database that includes all the CRUD functionalities, filtering and a crude log in and log out functionality that uses
-
-a MongoDB collection to test whether the user's username and password match a known user.
-
 Technologies: Vanilla JS, Node, MongoDB
+
+A Hobby app that includes all the CRUD functionalities, filtering and a crude log in and log out functionality that uses a MongoDB collection to test whether the user's username and password match a known user.
 
 [Link to the source code](https://github.com/vihervirveli/Fullstack-HobbyApp)
 
 ## React 
 
 ### pic-app
+
+Techonologies: React
 
 A picture app where you can create a card and search for pictures using Pixabay API
 
