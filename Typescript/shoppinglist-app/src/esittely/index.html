@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maarit Salo P0033 - Web User Interface Programming</title>
+    <style>
+        body {
+            background-color: orange;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .contentp {
+            padding: 10px;
+            background-color: white;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+        }
+
+        img {
+            display: block;
+            padding: 10px;
+            width: 60%;
+        }
+
+        .content {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Maarit Salo P0033 - The Presentation of the course project for Web User Interface Programming</h1>
+
+        <div class="contentp">
+            <h2>Name of the project: ShoppingList App</h2>
+          
+        </div>
+        <div class="contentp">Author: Maarit Salo P0033</div>
+        <div class="contentp">Between the dates 6.3. and 6.4.2023</div>
+        <div class="contentp">
+            <h3>Time management</h3>
+            <p>I spent about 30 hours and 5 minutes on the project. It's rounding down a bit, since I also thought about the project while away from my computer.</p>
+        </div>
+        <div class="contentp">
+            <h3>Build</h3>
+            <p><a href="https://student.labranet.jamk.fi/~p0033/wuipharkka/pg/">Link</a> to the build of the project</p>
+        </div>
+        <div class="contentp">
+            <h3>Video presentation</h3>
+            <a href="https://jamkstudent-my.sharepoint.com/:v:/g/personal/p0033_student_jamk_fi/EXKO_sFa7MhMj9D_Cf-hoMYB-dXqE7zyGb1iXc3iVWYgIA?e=1MpzpX">Link to the video presentation</a>
+        </div>
+        <div class="contentp">
+            <h3>Description of the project</h3>
+            <p>The app was made with Typescript React, using Firebase as a database. The app employs React router and Firebase authentication. When the user first arrives to the app, they will see a login page, from which they can navigate to the sign up page or enter their credentials and login and be directed to the home page.
+            </p>
+            <h3>Functionalities</h3>
+            <ul>
+                <li>User authentication with Firebase (login/logout)</li>
+                <li>Email and password type sign up with Firebase</li>
+                <li>Navigation with React router</li>
+                <li>Different users only see their own shopping list items</li>
+                <li>The user can add a new item for their list</li>
+                <li>The user can edit an item on their list (Firebase setDoc)</li>
+                <li>The user can remove an item from their list</li>
+                <li>The user can mark an item as checked or unchecked and UI shows the difference (Firebase update)</li>
+                <li>The total price of all the items is listed below</li>
+                <li>The items are separated under each store, so the user can easily tell which items to get from S-Market and which from K-Market or Lidl</li>
+                
+            </ul>
+        </div>
+        <div class="contentp">
+            <h3>Typescript intro</h3>
+            <a href="https://www.typescriptlang.org/">Typescript</a> is a Javascript based language that is strongly typed. One can use React with Typescript from the beginning or transform a JSX React project into Typescript, like I did here. Here is <a href="https://create-react-app.dev/docs/adding-typescript/">a link</a> to instructions on how to use Typescript either from beginning with Create-React-App or add types later. I recommend using them from the beginning because I added the types later, and it was nerve-wrecking to get the project working or even compiling again.
+        </div>
+        <div class="contentp">
+            <h3>Source codes</h3>
+                <p><a href="https://gitlab.labranet.jamk.fi/P0033/shoppinglist">Source code</a></p>
+        </div>
+        <div class="contentp">
+            <h3>About the process</h3>
+            <p><a href="https://gitlab.labranet.jamk.fi/P0033/shoppinglist/-/blob/main/README.md">I wrote into the README file</a> whenever I did something.
+            </p></div>
+       
+      
+        <div class="contentp">
+            <h3>Structure of the app</h3>
+            <p>The App file handles the router, which directs the user to Home, Login or Sign up pages based on where they need to go. Every page shows the Banner to the user, whether they are logged in or not. Once the user is logged in, App directs the user to Home, which has inside it the ShoppingList. The ShoppingList keeps within it:</p>
+            <ul>
+                <li>AddForm for adding new items to the user's shopping list</li>
+                <li>ShoppingList maps the items useState array and forms a list of ListItemDefault components, which show either the specific item's information, or the editing form so the user can edit the item. Inside ListItemDefault file there is also the EditDropDown component that ListItemDefault calls if the user is editing the item so the remaining options can be dynamically created</li>
+            </ul> 
+            </div>
+       
+        <div class="contentp">
+            <h3>APIs used</h3>
+            <p>Firebase for</p>
+            <ul>
+                <li>authentication</li>
+                <li>item data (database collection "items")</li>
+            </ul>
+        </div>
+        
+        <div class="contentp">
+            <h3>Self evaluation</h3>
+            <p class="i">Grade proposal, Achievements, Improvements</p>
+            <ul>
+                <li>
+                    What I did: I did the project myself, although I did use the teacher's examples to my advantage. 
+                </li>
+                <li>Grade proposal: I propose full marks on this (grade 2) because the functionalities the teacher and I agreed on at the beginning work</li>
+                <li>
+                    Achievements worth mentioning
+                    <ul>
+                        <li>
+                            I did this with Typescript React, which was difficult at times
+                        </li>
+                        <li>React Router for navigation</li>
+                        <li>Firebase authentication</li>
+                        <li>Firebase update AND setDoc (versatile use of Firebase)</li>
+                        <li>Use of models and types (Typescript)</li>
+                        
+                    </ul>
+                </li>
+                <li>Improvements, eg. "If I had unlimited time for this"
+                    <ul>
+
+                        <li>
+                         A user could have multiple shopping lists, and then use previous shopping lists as the basis for their new shopping lists
+                        </li>
+                        <li>Separate pages for those shopping lists (further into React Router)</li>
+                        <li>Typescript is still new to me, and I don't think I took full advantage of it. If I knew more about Typescript, I could remove "| undefined | null" from certain types. I would've rather not used those at all, but the app wouldn't work without them.</li>
+                        <li>Currently the app renders quite a few times just upon entering the pages, so that could be improved upon, I think</li>
+                        <li>It would've been better to add redux toolkit to this, so I wouldn't have to pass props so much. At one point, there were like 16 props passed to one component, although I ultimately refactored the code to work better, but for example the user and email are passed from one child to the parent's grandchild, which is not ideal.</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="contentp">
+            <h3>Screenshots</h3>
+            <p>Initial plan <img src="initialplan.png" alt="plan"></p>
+            <p>Final Sign up view <img src="signup.png" alt="signup"></p>
+            <p>Final login view <img src="login.png" alt="login"></p>
+            <p>Final Home/ShoppingList view <img src="home.png" alt="home"> As you can see, one of the items is checked and appears darker than the unchecked one, and you can see the total amount of money needed to purchase the items</p>
+            <p>AddForm appears when you press "Add New Item" button
+                <img src="add.png" alt="add">
+            </p>
+            <p>Pressing Edit on an item shows you the edit view of the item
+                <img src="edit.png" alt="edit">
+            </p>
+           
+        </div>
+    </div>
+</body>
+
+</html>

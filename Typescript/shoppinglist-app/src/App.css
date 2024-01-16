@@ -1,0 +1,238 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #36393F;
+  
+}
+
+h1 {
+  
+  text-align: center;
+  color: #36393F;
+  padding: 5px 0;
+  border-radius: 0 0 3px 3px;
+  font-size: 200%;
+}
+
+h2 {
+  background-color: rgb(218, 148, 19);
+  text-align: center;
+  color: white;
+  padding: 5px 0;
+  border-radius: 0 0 2px 2px;
+}
+
+h3{
+  color: #36393F;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  
+  list-style-type: square;
+  margin: 20px 0 20px 0;
+}
+
+input[type=text] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 300px;
+  font-size: 15px;
+  background-color: #36393F;
+  color: orange;
+}
+
+.lefttext{
+  display: inline-block; 
+  width: 105px; 
+  text-align: right;
+}
+
+
+input[type=submit], .cancelbtn, .editbtn, .addModeOn {
+  border: 1px solid #ccc;
+  margin-left: 1px;
+  margin-top: 4px;
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #36393F;
+  color: #F1F1F1;
+}
+
+
+.btn {
+  border: 1px solid #ccc;
+  margin-left: 0px;
+  margin-top: 3px;
+  padding: 5px 15px;
+  font-size: 16px;
+  background-color: #36393F;
+  color: #F1F1F1;
+}
+
+#root {
+  width: 400px;
+  background-color:rgb(237,198,33);
+  border-radius: 3px;
+  padding: 0 10px 10px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
+
+.remove {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.checked{
+  cursor: pointer;
+  color: rgb(105, 105, 201);
+  font-weight: bold;
+}
+.unchecked{
+  cursor: pointer;
+  color: rgb(105, 105, 201);
+  font-weight: bold;
+}
+
+
+.total {
+  font-weight: bold;
+  color: rgb(5, 5, 88);
+  
+}
+
+.totalcontainer{
+  padding: 3px;
+  border-radius: 5px;
+
+}
+
+.formContainer, .editForm{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.add{
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  font-size: 16px;
+  margin-left: 0;
+  display: block;
+}
+
+.edit{
+  cursor: pointer;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.shoppinglist{
+ list-style-type: none; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 0px;
+ padding: 0;
+}
+
+
+.defaultItemUnchecked, .defaultItemChecked{
+  margin-bottom: 10px;
+  color: #F1F1F1;
+  border-radius: 10px;
+  padding: 5px;
+
+  box-shadow: 4px 4px 2px grey;
+}
+.defaultItemUnchecked{
+  background-color:  #36393F;
+
+}
+
+.defaultItemChecked{
+  background-color: #15171a;
+  color: #b0aeae;
+}
+
+
+.editbtn{
+  background-color: #36393F;
+}
+
+.cancelbtn{
+  background-color: rgb(255, 119, 0);
+}
+
+::placeholder { color: orange; }
+
+.gridContainer{
+  display: grid;
+  grid-template-columns:  3fr 1fr;
+}
+
+.gridLeft{
+  display: grid;
+  grid-template-rows: auto;
+  }
+  
+  .gridRight{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: right;
+    padding: 5px;
+  }
+
+  .info{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 5px;
+  }
+  .priceinfo{
+    display: inline;
+  }
+
+  .normal{
+    display: block;
+    margin-right: 5px;
+    padding:0px;
+  }
+
+h4{
+  margin-right: 0px;
+  width: 75px;
+}
+
+ .store, .lidl{
+  display: inline;
+  width: 80px;
+  margin-bottom: 0;
+  padding-top:17px;
+  padding-left: 0;
+ }
+
+ .storecontainer, .lidlstorecontainer{
+  display: grid;
+  grid-template-columns:  1fr 4fr;
+ }
+
+ .lidlstorecontainer h4{
+  width: 60px;
+ }
+.lidlstorecontainer{
+  grid-template-columns:  1fr 5fr;
+}
+
+ .lidl{
+  width: 60px;
+  margin-bottom: 5px;
+ }
+
+ .selector select{
+  background-color: #36393F;
+  color: orange;
+  padding: 3px;
+ }
