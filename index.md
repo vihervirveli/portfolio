@@ -26,7 +26,7 @@
 
 * Tieto- ja viestintätekniikka (ICT-insinööri)
     * JAMK, elokuu 2021 -
-    * moduuliopinnot sovelluskehitys ja hiukan tietoturva- ja peliopintoja
+    * moduuliopinnot: sovelluskehitys ja hiukan tietoturva- ja peliopintoja
 * Moderni ohjelmistokehitys (web developer)
     * JAMK/Te-palvelut, syyskuu – joulukuu 2020  
 * Tekoäly ja Iot (data scientist)
