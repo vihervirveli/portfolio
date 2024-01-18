@@ -8,7 +8,7 @@
 | ---- | ---- | ---- |
 | [Movie app](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/flutter_movies) | Flutter, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
 | [Movie app](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/MoviesReactNative) | React Native, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
-| [Launch a map]() | React Native| A map where a user gives coordinates and the app launches the device's own map application to show the location |
+| [Launch a map](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/LaunchMap) | React Native| A map where a user gives coordinates and the app launches the device's own map application to show the location |
 
 
  **Frontend** 
