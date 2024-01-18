@@ -23,7 +23,7 @@
 
 
 | **Backend** |
-|:-------------:|                                    | 
+|:-------------:| 
 | Project name | Technologies | Project description | 
 |:-------------:|:---------:|:---------:|
 | [**Image classification AI**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)| An image classification AI with Tensorflow 2.0 | Python, Tensorflow 2.0 | Distinguishes between pictures with 1 face or several or none |
