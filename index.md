@@ -3,18 +3,19 @@
 
 ### Coding experience
 
-|  **Mobile programming (2023 Autumn)** | 
-|:-------------:| ||
-| Project name | Technologies | Project description | 
+**Mobile programming (2023 Autumn)**  
+
+| Project name | Skills | Project description | 
 |:-------------:|:------:|:-------:|
 | [Movie app]() | Flutter, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
 | [Movie app]() | React Native| App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
 | [Launch a map]() | React Native| A map where a user gives coordinates and the app launches the device's own map application to show the location |
 
 
-|  **Frontend** | | |
+ **Frontend** 
+
 |:-------------:|
-| Project name | Technologies | Project description | 
+| Project name | Skills | Project description | 
 |:-------------:|:------:|:-------:|
 |[**Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [**Fullstack Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | a full-stack app that displays a user's hobbies (CRUD) |
@@ -23,9 +24,9 @@
 | [**Older**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS) | HTML, CSS | A small HTML and CSS course exercise from 2021 |   
 
 
-| **Backend** |
-|:-------------:| 
-| Project name | Technologies | Project description | 
+ **Backend**
+ 
+| Project name | Skills | Project description | 
 |:-------------:|:---------:|:---------:|
 | [**Image classification AI**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)| An image classification AI with Tensorflow 2.0 | Python, Tensorflow 2.0 | Distinguishes between pictures with 1 face or several or none |
 | [**Fullstack Hobby app**](https://github.com/vihervirveli/Fullstack-HobbyApp/tree/main/backend) | Node.js | Backend for the Fullstack Hobby app |
