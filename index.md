@@ -3,7 +3,16 @@
 
 ### Coding experience
 
+|  **Mobile programming (2023 Autumn)** | 
+|:-------------:|
+| Project name | Technologies | Project description | 
+|:-------------:|:------:|:-------:|
+| [Movie app]() | Flutter, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
+| [Movie app]() | React Native| App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
+| [Launch a map]() | React Native| A map where a user gives coordinates and the app launches the device's own map application to show the location |
+
 |  **Frontend** | 
+|:-------------:|
 | Project name | Technologies | Project description | 
 |:-------------:|:------:|:-------:|
 |[**Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
@@ -13,7 +22,8 @@
 | [**Older**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS) | HTML, CSS | A small HTML and CSS course exercise from 2021 |   
 
 
-| **Backend** |                                    | 
+| **Backend** |
+|:-------------:|                                    | 
 | Project name | Technologies | Project description | 
 |:-------------:|:---------:|:---------:|
 | [**Image classification AI**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)| An image classification AI with Tensorflow 2.0 | Python, Tensorflow 2.0 | Distinguishes between pictures with 1 face or several or none |
