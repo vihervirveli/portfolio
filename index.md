@@ -1,6 +1,5 @@
 ## MAARIT SALO | Portfolio
 
-
 ### Coding experience
 
 **Mobile programming (2023 Autumn)**  
@@ -14,7 +13,6 @@
 
  **Frontend** 
 
-|:-------------:|
 | Project name | Skills | Project description | 
 |:-------------:|:------:|:-------:|
 |[**Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
