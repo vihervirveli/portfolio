@@ -3,22 +3,24 @@
 
 ### Coding experience
 
-|  **Frontend** |                              | 
-|:-------------:|:------:|
-|  [**React-Typescript - Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | Shopping list app, technologies: React, Typescript, Firebase |
-|  [**Fullstack - Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | Hobby App, technologies: vanilla JS, Node.js ja MongoDB |
-|  [**React - Picapp**](https://github.com/vihervirveli/pic-app) | Pic App where you can search Pixabay APi for pictures and "send" a card |
-|  [**Javascript**](https://github.com/vihervirveli/portfolio/tree/master/Javascript)| Different small calculators, guessers and API and JSON exercises |
-| [**HTML&CSS**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS)  | A small HTML and CSS course exercise from 2021 |   
+|  **Frontend** | 
+| Project name | Technologies | Project description | 
+|:-------------:|:------:|:-------:|
+|[**Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
+| [**Fullstack Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js ja MongoDB |
+| [**Pic app**](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
+| [**Misc Javascript samples**](https://github.com/vihervirveli/portfolio/tree/master/Javascript) | Javascript | Different small calculators, guessers and API and JSON exercises |
+| [**Older**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS) | HTML, CSS | A small HTML and CSS course exercise from 2021 |   
 
 
-|  Backend coding |                                    | 
-|:-------------:|:---------:|
-| [**Python**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python)| For example an image classification AI with Tensorflow 2.0 |
-| [**Node.js**](https://github.com/vihervirveli/Fullstack-HobbyApp) | Backend for the Fullstack Hobby app |
-|  [**Node.js**](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Winston-logger to log the backend in a forum |
-| [**Java**](https://github.com/vihervirveli/portfolio/tree/master/Java)| A superhero database with relative databases and Windowbuilder |
-| [**C#**](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | A platform game |
+| **Backend** |                                    | 
+| Project name | Technologies | Project description | 
+|:-------------:|:---------:|:---------:|
+| [**Image classification AI**](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)| An image classification AI with Tensorflow 2.0 |
+| [**Fullstack Hobby app**](https://github.com/vihervirveli/Fullstack-HobbyApp/tree/main/backend) | Node.js | Backend for the Fullstack Hobby app |
+|  [**Winston logger**](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Node.js | Winston-logger to log the backend in a forum |
+| [**Superhero database**](https://github.com/vihervirveli/portfolio/tree/master/Java)| Java | A superhero database with relative databases and Windowbuilder |
+| [**A platform game French word**](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | C# | A platform game |
 
 ### Education
 
