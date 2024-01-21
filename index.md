@@ -15,7 +15,7 @@
 
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
-|[Card-app (2024)](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap| A new version of Pic app|
+|[Card-app (2024) **in progress**](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap| A new version of Pic app|
 | [Pic app (2022)](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
 |[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [Fullstack Hobbyapp](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | a full-stack app that displays a user's hobbies (CRUD) |
@@ -27,8 +27,8 @@
 | Project name | Skills | Project description | 
 | ---- | ---- | ---- |
 | [C# exercises](https://github.com/vihervirveli/CsharpRefresher)| C# | About 13 exercises to get back to doing C# |
-| [Image classification AI](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)|  Python, Tensorflow 2.0 | An image classification AI, distinguishes between pictures with 1 face or several or none |
 | [Fullstack Hobby app](https://github.com/vihervirveli/Fullstack-HobbyApp/tree/main/backend) | Node.js | Backend for the Fullstack Hobby app |
+| [Image classification AI](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)|  Python, Tensorflow 2.0 | An image classification AI, distinguishes between pictures with 1 face or several or none |
 | [Superhero database](https://github.com/vihervirveli/portfolio/tree/master/Java)| Java, Windowbuilder | A superhero database with relational databases and Windowbuilder |
 | [A platform game French word](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | C# | A platform game |
 
