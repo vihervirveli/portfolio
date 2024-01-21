@@ -19,7 +19,7 @@
 | [**Pic app (2022)**](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
 |[**Shopping list app (2023)**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [**Fullstack Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | a full-stack app that displays a user's hobbies (CRUD) |
-| [**Older**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS) | HTML, CSS | A small HTML and CSS course exercise from 2021 |   
+
 
 
  **Backend**
