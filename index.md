@@ -26,9 +26,9 @@
  
 | Project name | Skills | Project description | 
 | ---- | ---- | ---- |
+| [C# exercises](https://github.com/vihervirveli/CsharpRefresher)| C# | About 13 exercises to get back to doing C# |
 | [Image classification AI](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)|  Python, Tensorflow 2.0 | An image classification AI, distinguishes between pictures with 1 face or several or none |
 | [Fullstack Hobby app](https://github.com/vihervirveli/Fullstack-HobbyApp/tree/main/backend) | Node.js | Backend for the Fullstack Hobby app |
-|  [Winston logger](https://github.com/vihervirveli/WiableNode/blob/master/routes/api/articles.js)| Node.js | Winston-logger to log the backend in a forum |
 | [Superhero database](https://github.com/vihervirveli/portfolio/tree/master/Java)| Java, Windowbuilder | A superhero database with relational databases and Windowbuilder |
 | [A platform game French word](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | C# | A platform game |
 
