@@ -15,7 +15,7 @@
 
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
-|[Card-app (2024) **in progress**](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap| A new version of Pic app|
+|[Card-app (2024) **!in progress!**](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap| A new version of Pic app|
 | [Pic app (2022)](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
 |[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [Fullstack Hobbyapp](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | a full-stack app that displays a user's hobbies (CRUD) |
