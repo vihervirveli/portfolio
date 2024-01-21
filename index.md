@@ -15,9 +15,11 @@
 
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
-|[**Shopping list app**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
+|[**Card-app (2024)**](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap| A new version of Pic app|
+| [**Pic app (2022)**](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
+|[**Shopping list app (2023)**](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [**Fullstack Hobbyapp**](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | a full-stack app that displays a user's hobbies (CRUD) |
-| [**Pic app**](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay APi for pictures and "send" a card |
+
 | [**Misc Javascript samples**](https://github.com/vihervirveli/portfolio/tree/master/Javascript) | Javascript | Different small calculators, guessers and API and JSON exercises |
 | [**Older**](https://github.com/vihervirveli/portfolio/tree/master/HTMLjaCSS) | HTML, CSS | A small HTML and CSS course exercise from 2021 |   
 
