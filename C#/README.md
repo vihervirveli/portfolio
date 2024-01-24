@@ -14,4 +14,4 @@ I learned the basics of coding and how to make a 2D game using
 
 2011
 
-![Moon](./FrenchWordTasoHyppely/kuvat/kuu.png)
+![Moon](.\FrenchWordTasoHyppely\kuvat\kuu.png)
