@@ -26,7 +26,7 @@
  
 | Project name | Skills | Project description | 
 | ---- | ---- | ---- |
-| [Data analytics](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning) | Python | Some Data analytics exercises including Machine learning |
+| [Data analytics (2023)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning) | Python | Some Data analytics exercises including Machine learning |
 | [C# exercises (2023)](https://github.com/vihervirveli/CsharpRefresher)| C# | About 13 exercises to get back to doing C# |
 | [Fullstack Hobby app (2022)](https://github.com/vihervirveli/Fullstack-HobbyApp/tree/main/backend) | Node.js | Backend for the Fullstack Hobby app |
 | [Image classification AI (2019)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/Python_ImageClassificationFaceRecognition)|  Python, Tensorflow 2.0 | An image classification AI, distinguishes between pictures with 1 face or several or none |
