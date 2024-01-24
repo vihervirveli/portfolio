@@ -35,9 +35,9 @@
 
 **Azure/AWS Badges**
 
-| Platform | Achievement | 
+| Achievement | Platform | 
 | --- | --- |
-| Azure | [Azure Fundamentals (2022)](https://github.com/vihervirveli/portfolio/blob/master/badges/azurebadge.md)|
+| [Azure Fundamentals (2022)](https://github.com/vihervirveli/portfolio/blob/master/badges/azurebadge.md) | Azure | 
 
 ### Education
 
