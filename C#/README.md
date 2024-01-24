@@ -8,3 +8,5 @@ I learned the basics of coding and how to make a 2D game using
 - Jypeli 
 
 2011
+
+![kuu](FrenchWordTasoHyppely/kuvat/kuu.png)
