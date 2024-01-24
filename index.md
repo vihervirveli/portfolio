@@ -33,6 +33,12 @@
 | [Superhero database (2013)](https://github.com/vihervirveli/portfolio/tree/master/Java)| Java, Windowbuilder | A superhero database with relational databases and Windowbuilder |
 | [A platform game French word (2011)](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | C# | A platform game |
 
+**Azure/AWS Badges**
+
+| Platform | Achievement | 
+| --- | --- |
+| Azure | [Azure Fundamentals (2022)](https://github.com/vihervirveli/portfolio/blob/master/badges/azurebadge.md)|
+
 ### Education
 
 * Information and communications technology (ICT-engineer)
