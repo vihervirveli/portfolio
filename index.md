@@ -37,7 +37,7 @@
 
 | Achievement | Platform | 
 | --- | --- |
-| [Azure Fundamentals (2022)](https://github.com/vihervirveli/portfolio/blob/master/badges/azurebadge.md) | Azure | 
+| [Microsoft Azure Fundamentals: Describe Azure architecture and services (2022)](https://github.com/vihervirveli/portfolio/blob/master/badges/azurebadge.md) | Azure | 
 
 ### Education
 
