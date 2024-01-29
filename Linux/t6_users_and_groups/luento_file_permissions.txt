@@ -1,0 +1,47 @@
+_ user group  o
+  [---][---][---]
+
+
+
+chmod 777 /tmp/test 
+täydet oikeudet kaikille käyttäjille
+
+rekursiivisesti oikeudet kaikille sensor_datan alisille tiedostoille ja kansioille
+chmod 440 -R sensor_data/
+
+chmod u-x,g+w,o+r new_file.txt
+ei välilyöntejä!
+
+
+tree -p [kansio] 
+näyttää oikeudet
+
+
+sudo chown john:ryhmä new_file.txt
+
+
+
+Symboliset linkit / kovat linkit
+ei tarvii olla olemassa / pitää olla olemassa
+
+
+ln -s 
+symbolinen linkki
+
+ln sejuttujohonviitataan linkinnimi
+
+
+
+explainshell.com
+
+
+
+
+
+
+
+marketing_policy.txt omistaja managerit
+
+
+
+

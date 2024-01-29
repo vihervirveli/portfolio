@@ -1,0 +1,8 @@
+/etc/multipath.conf
+
+sinne 
+blacklist {
+   devnode ""
+}
+
+sudo systemctl restart multipath-tools
