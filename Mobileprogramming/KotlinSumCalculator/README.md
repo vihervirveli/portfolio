@@ -6,22 +6,22 @@ Used Gridlayout.
 
 ## Portrait
 
-![main](main.png)
+![main](screenshots/main.png)
 
-![calc](calc.png)
+![calc](screenshots/calc.png)
 
-![sum](sum.png)
+![sum](screenshots/sum.png)
 
 Pressing C to clear things 
 
-![c](c.png)
+![c](screenshots/c.png)
 
 ## Landscape
 
-![land](land.png)
+![land](screenshots/land.png)
 
-![sum](landsum.png)
+![sum](screenshots/landsum.png)
 
 Pressing C to clear things 
 
-![landc](landc.png)
+![landc](screenshots/landc.png)
