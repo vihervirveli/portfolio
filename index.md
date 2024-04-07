@@ -16,7 +16,7 @@
 
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
-|[Card-app (2024) **!in progress!**](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap, Firebase | A new version of Pic app|
+|[Card-app (2024)](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap, Firebase | A new version of Pic app|
 | [Pic app (2022)](https://github.com/vihervirveli/pic-app)| React, Pixabay API | Pic App where you can search Pixabay API for pictures and "send" a card |
 | [Portfolio-app (2023)](https://gitlab.labranet.jamk.fi/P0033/webvisproject) | HTML, CSS, SCSS, Vite, Bootstrap, vector graphics | A portfolio app designed to demonstrate scalability and other visual aspects using different methods. [Link to pages](https://p0033.pages.labranet.jamk.fi/webvisproject/src/gallery.html)  |
 |[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
