@@ -4,6 +4,7 @@
 
 * I knew Python, Numpy, Pandas and Dataframes beforehand, but this was a good refresher and added value to my portfolio
 * [Link to code](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning)
+2023
 
 ## Elements of AI
 
