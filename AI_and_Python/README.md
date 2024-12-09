@@ -1,5 +1,10 @@
 # What I learned from my projects
 
+## Introduction to Data analytics and artificial intelligence (class)
+
+* I knew Python, Numpy, Pandas and Dataframes beforehand, but this was a good refresher and added value to my portfolio
+* [Link to code](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning)
+
 ## Elements of AI
 
 I learned the basics of AI and how to apply them in an AI project \
