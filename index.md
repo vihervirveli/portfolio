@@ -2,16 +2,6 @@
 
 ### Coding experience
 
-**Mobile programming**  
-
-| Project name | Skills | Project description | 
-| ---- | ---- | ---- |
-| [Calculator app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/KotlinSumCalculator) | Kotlin | Calculator app (SUM function) |
-| [Movie app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/flutter_movies) | Flutter, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
-| [Movie app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/MoviesReactNative) | React Native, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
-| [Launch a map (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/LaunchMap) | React Native| A map app where a user gives coordinates and the app launches the device's own map application to show the location |
-
-
  **Frontend** 
 
 | Project name | Skills | Project description |
@@ -22,7 +12,14 @@
 |[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
 | [Fullstack Hobbyapp (2022)](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | A full-stack app that displays a user's hobbies (CRUD) |
 
+**Mobile programming**  
 
+| Project name | Skills | Project description | 
+| ---- | ---- | ---- |
+| [Calculator app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/KotlinSumCalculator) | Kotlin | Calculator app (SUM function) |
+| [Movie app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/flutter_movies) | Flutter, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
+| [Movie app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/MoviesReactNative) | React Native, IMDB API | App showing IMDB's most recent movies, 3 different screens: list, individual movie and trailer screen |
+| [Launch a map (2023)](https://github.com/vihervirveli/portfolio/tree/master/Mobileprogramming/LaunchMap) | React Native| A map app where a user gives coordinates and the app launches the device's own map application to show the location |
 
  **Backend**
  
