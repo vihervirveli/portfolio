@@ -6,7 +6,7 @@
 
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
-| MavJunitProj (2024) | Junit testing | A simple calculator and the Junit test to go with it |
+| [MavJunitProj (2024)](https://github.com/vihervirveli/portfolio/tree/master/Testing/mavJunitProj) | Junit testing | A simple calculator and the Junit test to go with it |
 
 
  **Frontend** 
