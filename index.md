@@ -31,7 +31,7 @@
  
 | Project name | Skills | Project description | 
 | ---- | ---- | ---- |
-| [Mistral-PG RAG](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/mistral_pg) | AI, Python, Docker| RAG AI that grounds answers in your documents |
+| [Mistral-PG RAG (2025)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/mistral_pg) | AI, Python, Docker| RAG AI that grounds answers in your documents |
 | [Node Backend server (2023)](https://github.com/vihervirveli/portfolio/tree/master/Node/NodeBackend)| Node.js, MongoDB | A Node.js server w/ MongoDB, validators, middleware, auth tokens etc |
 | [Data analytics (2023)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning) | Python | Some Data analytics exercises including Machine learning |
 | [C# exercises (2023)](https://github.com/vihervirveli/CsharpRefresher)| C# | About 13 exercises to get back to doing C# |
