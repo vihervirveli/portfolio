@@ -10,7 +10,7 @@ Utilizing the RAG technique, Mistral-PG will take your documents and answer your
 
 [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
-# Vector database
+## Vector database
 
 PostgreSQL's pgvector
 
