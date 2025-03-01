@@ -1,6 +1,6 @@
 # Mistral-PG RAG
 
-[Original tutorial from which this is modified from](https://medium.com/@oanottage/0-poc-rag-application-1b12110caf88)
+[Original tutorial from which this is modified](https://medium.com/@oanottage/0-poc-rag-application-1b12110caf88)
 
 Utilizing the RAG technique, Mistral-PG will take your documents and answer your questions grounded in facts from those documents
 
@@ -32,7 +32,7 @@ Place your markdown files in the qa folder
 
 4. Install PostgreSQL 
 
-5. Create venv
+5. Create virtual environment
 
 > python -m venv .venv
 
