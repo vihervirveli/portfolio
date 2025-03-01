@@ -41,20 +41,27 @@ Place your markdown files in the qa folder
 7. Within Visual Studio Code (VSC) terminal
 
 > pip install -r requirements.txt
+
 > pip install -U sentence-transformers
+
 > pip install "unstructured[md]"
+
 > pip install python-magic python-magic-bin
 
 8. In command prompt or similar
 
 > docker pull ankane/pgvector
+
 > docker run --name mistral-pg -e POSTGRES_PASSWORD=password -p 5433:5432 ankane/pgvector> 
 
 Replace above password with your PostgreSQL password
 
 > docker exec -it mistral-pg psql -U postgres -d postgres
+
 > CREATE DATABASE qa;
+
 > \c qa
+
 > CREATE EXTENSION vector;
 
 Your folder should look more or less like this:
