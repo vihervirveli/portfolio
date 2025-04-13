@@ -14,9 +14,9 @@
 | Project name | Skills | Project description |
 | ---- | ---- | ---- |
 | [Cibus-food-app (2025)](https://github.com/vihervirveli/cibus-food-app)| React, Typescript, Material UI| Recipe App|
-|[Card-app (2024)](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap, Firebase | App where a user can "send" a card with their chosen picture and message |
+|[Card-app (2024)](https://github.com/vihervirveli/card-app) | React, Typescript, Bootstrap, Firestore | App where a user can "send" a card with their chosen picture and message |
 | [Portfolio-app (2023)](https://gitlab.labranet.jamk.fi/P0033/webvisproject) | HTML, CSS, SCSS, Vite, Bootstrap, vector graphics | A portfolio app designed to demonstrate scalability and other visual aspects using different methods. [Link to pages](https://p0033.pages.labranet.jamk.fi/webvisproject/src/gallery.html)  |
-|[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firebase| App with CRUD functionalities + checking and unchecking an item |
+|[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firestore| App with CRUD functionalities + checking and unchecking an item |
 | [Fullstack Hobbyapp (2022)](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | A full-stack app that displays a user's hobbies (CRUD) |
 
 **Mobile programming**  
