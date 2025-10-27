@@ -16,14 +16,6 @@
 | [Superhero database (2013)](https://github.com/vihervirveli/portfolio/tree/master/Java)| Java, Windowbuilder | A superhero database with relational databases and Windowbuilder |
 | [A platform game French word (2011)](https://github.com/vihervirveli/portfolio/tree/master/C%23)  | C# | A platform game |
 
-
-**Testing**
-
-| Project name | Skills | Project description |
-| ---- | ---- | ---- |
-| [MavJunitProj (2024)](https://github.com/vihervirveli/portfolio/tree/master/Testing/mavJunitProj) | Junit testing | A simple calculator and the Junit test to go with it |
-
-
  **Frontend** 
 
 | Project name | Skills | Project description |
@@ -33,6 +25,13 @@
 | [Portfolio-app (2023)](https://gitlab.labranet.jamk.fi/P0033/webvisproject) | HTML, CSS, SCSS, Vite, Bootstrap, vector graphics | A portfolio app designed to demonstrate scalability and other visual aspects using different methods. [Link to pages](https://p0033.pages.labranet.jamk.fi/webvisproject/src/gallery.html)  |
 |[Shopping list app (2023)](https://github.com/vihervirveli/portfolio/tree/master/Typescript/shoppinglist-app) | React, Typescript, Firestore| App with CRUD functionalities + checking and unchecking an item |
 | [Fullstack Hobbyapp (2022)](https://github.com/vihervirveli/Fullstack-HobbyApp) | vanilla JS, Node.js, MongoDB | A full-stack app that displays a user's hobbies (CRUD) |
+
+
+**Testing**
+
+| Project name | Skills | Project description |
+| ---- | ---- | ---- |
+| [MavJunitProj (2024)](https://github.com/vihervirveli/portfolio/tree/master/Testing/mavJunitProj) | Junit testing | A simple calculator and the Junit test to go with it |
 
 **Mobile programming**  
 
