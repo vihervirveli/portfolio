@@ -6,7 +6,7 @@
  
 | Project name | Skills | Project description | 
 | ---- | ---- | ---- |
-| [Cibus-food-app Backend (2025) **in progress**](https://github.com/vihervirveli/cibus-food-app-spring-boot) | Spring Boot, PostgreSQL, Java | Backend for the Cibus Food App |
+| [Cibus-food-app Backend (2025)](https://github.com/vihervirveli/cibus-food-app-spring-boot) | Spring Boot, PostgreSQL, Java | Backend for the Cibus Food App |
 | [Mistral-PG RAG (2025)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/mistral_pg) | AI, Python, Docker| RAG AI that grounds answers in your documents |
 | [Node Backend server (2023)](https://github.com/vihervirveli/portfolio/tree/master/Node/NodeBackend)| Node.js, MongoDB | A Node.js server w/ MongoDB, validators, middleware, auth tokens etc |
 | [Data analytics (2023)](https://github.com/vihervirveli/portfolio/tree/master/AI_and_Python/MachineLearning) | Python | Some Data analytics exercises including Machine learning |
